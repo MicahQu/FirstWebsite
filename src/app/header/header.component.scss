@@ -3,6 +3,8 @@
     justify-content: space-between;
     padding: 20px;
     background-color: #f1f1f1;
+    align-items: center; /* Vertically centers the child elements */
+    justify-content: center; /* Horizontally centers the child elements */
 }
 .header-column{
     flex: 1;
@@ -22,4 +24,21 @@
 .header-column img{
     width: 175px;
     height: auto;
+}
+.header-column ul{
+    list-style: none;  /* Removes bullet points */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Allows items to be displayed in a row */
+}
+.header-column ul li{
+    border: 1px solid #ccc; /* Adds a border around each item */
+    padding: 10px; /* Adds space inside the box */
+    margin-right: 0px; /* Adds space between boxes */
+    background-color: #f9f9f9; /* Adds a background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a shadow for depth */
+}
+.header-column ul li a{
+    color: black;
+    text-decoration: none;
 }

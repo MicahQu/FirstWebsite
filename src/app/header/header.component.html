@@ -2,13 +2,16 @@
     <!-- <p>&copy; 2024 My Angular App</p> -->
     <div class="header-container">
         <div class="header-column">
+            <a href="/">
             <img src="assets/logo.jpg" alt="Logo">
+            </a>
         </div>
         <div class="header-column">
-            <p>nav buttons go here</p>
-            <a href="/">home </a>
-            <a href="/search-page">search </a>
-            <a href="/about-us">about us</a>
+            <ul>
+                <li><a href="/">home </a></li>
+                <li><a href="/search-page">search </a></li>
+                <li><a href="/about-us">about us</a></li>
+            </ul>
         </div>
         <div class="header-column">
             <form (ngSubmit)="Search()" #contactForm="ngForm">
