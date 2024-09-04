@@ -1,0 +1,57 @@
+.container{
+    display: flex;
+    align-items: center; /* Aligns the image and text vertically */
+    gap: 20px; /* Adds space between the image and text */
+}
+.column{
+    flex: 1;/*Each column takes equal width*/
+    padding: 20px; /*add some padding*/
+}
+
+.home1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.text-column1{
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.home2{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.text-column2{
+    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.BuildingPic{
+    width: 500px;
+    height: auto;
+}
+.event1pic{
+    width: 400px;
+    height: auto;
+}
+.event2pic{
+    width: 200px;
+    height: auto;
+}
+.event3pic{
+    width: 200px;
+    height: auto;
+}
+.event2and3pics{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
