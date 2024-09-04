@@ -4,13 +4,29 @@
         
         <div class="about-us-column">
             <h3>Contact us</h3>
-                <p><a href="/"></a>Home</p>
-                <p><a href="/about"></a>About Us</p>
-                <p><a href="/search-page"></a>Search for your favorite books</p>
+            <form (ngSubmit)="onSubmit()" #contactForm="ngForm">
+                <div class="form-group">
+                    <!-- <label for="name">Name:</label> -->
+                    <input type ="text" id="name" class="form-control" name="name" ngModel required
+                    placeholder="Name"/>
+                </div>
+                <div class="form-group">
+                    <!-- <label for="email">Email:</label> -->
+                    <input type="email" id="email" class="form-control" name="name" ngModel required
+                    placeholder="Email"/>
+                </div>
+                <div class="form-group">
+                   <!-- <label for="message">Message:</label> -->
+                    <textarea id="message" class="form-control" name="message" ngModel required
+                    placeholder="Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send</button>
+            </form>
         </div>
         <div class="about-us-column">
             <h3>About Us</h3>
-            <p>Welcome to our local library, a community hub where knowledge, creativity, 
+            <p>chatgpt filler text:Welcome to our local library, a community hub where knowledge, 
+            creativity, 
             and learning come together. We are dedicated to providing a welcoming and 
             inclusive environment for all, offering a diverse collection of books, digital 
             resources, and programs for people of all ages. Whether you're looking to 
@@ -20,7 +36,8 @@
              Join us in fostering a love for reading and lifelong learning in our community.</p>
         </div>
         <div class="about-us-column">
-            <img src="assets/logo.jpg" alt="Logo">
+            <h3></h3>
+            <img src="assets/BuildingPic.jpg" alt="library building">
         </div>
     </div>
 </div>

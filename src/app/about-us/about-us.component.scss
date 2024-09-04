@@ -7,11 +7,15 @@
 .about-us-column{
     flex: 1;
     margin: 0 15px;
+    text-align: center;
 }
 .about-us-column h3{
     margin-top: 0;
 }
 .about-us-column img{
-    width: 175px;
+    width: 400px;
     height: auto;
+    align-items: center;
+    justify-content: center;
+    
 }
