@@ -1,5 +1,15 @@
 <div class="container">
     <div class="sidebar">
+        <h3>Avaibility</h3>
+        <section>
+            <input type="checkbox" id="atlibrary" name="atlibrary" value="At Library" checked>
+            <label for="atlibrary">At Library</label>
+        </section>
+        <section>
+            <input type="checkbox" id="online" name="online" value="Online" checked>
+            <label for="online">Online</label>
+        </section>
+        <h3>Format</h3>
         <section>
             <input type="checkbox" id="books" name="books" value="Books" checked>
             <label for="books">Books</label>
@@ -12,10 +22,18 @@
             <input type="checkbox" id="music" name="music" value="Music" checked>
             <label for="music">Music</label>
         </section>
+        <h3>Number of Pages:</h3>
         <p>
-        <label for="numOfPages">Number of Pages:</label><br>
         1 <input type="range" min="1" max="10000" value="1000" class="slider" id="numOfPages">
          10,000</p>
         
+         <h3>Date Published</h3>
+            <div class="datePublished">
+                <input type ="number" id="yearfrom" class="form-control" name="yearfrom" 
+                min="1000" max="2099" ngModel required placeholder="'YYYY' from"/>
+                <input type ="number" id="yearto" class="form-control" name="yearto" 
+                min="1000" max="2099" ngModel required placeholder="'YYYY' to"/>
+            </div>
+            
     </div>
 </div>

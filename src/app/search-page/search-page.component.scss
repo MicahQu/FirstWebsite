@@ -14,8 +14,11 @@
     color: #333;
     padding: 15px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
 }
 input[type="range"] {
     width:150px;
   }
+.datePublished{
+    display: flex;
+}
