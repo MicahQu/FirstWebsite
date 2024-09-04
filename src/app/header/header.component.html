@@ -1,4 +1,22 @@
-<p>header works!</p>
-<a href="/">home </a>
-<a href="/search-page">search </a>
-<a href="/about-us">about us</a>
+<header>
+    <!-- <p>&copy; 2024 My Angular App</p> -->
+    <div class="header-container">
+        <div class="header-column">
+            <img src="assets/logo.jpg" alt="Logo">
+        </div>
+        <div class="header-column">
+            <p>nav buttons go here</p>
+            <a href="/">home </a>
+            <a href="/search-page">search </a>
+            <a href="/about-us">about us</a>
+        </div>
+        <div class="header-column">
+            <form (ngSubmit)="Search()" #contactForm="ngForm">
+                <input type ="text" id="search" class="form-control" name="search" ngModel required
+                placeholder="Search"/>
+                <button type="button" class="btn btn-primary" 
+                    onclick="window.location.href='/search-page';">Search</button>
+            </form>
+        </div>
+    </div>
+</header>

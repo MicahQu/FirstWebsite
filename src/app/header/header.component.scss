@@ -1,0 +1,25 @@
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+.header-column{
+    flex: 1;
+    margin: 0 15px;
+}
+.header-column h3{
+    margin-top: 0;
+}
+.header-bottom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    //background-color: #e9ecef;
+    //color: #000000;
+}
+
+.header-column img{
+    width: 175px;
+    height: auto;
+}
