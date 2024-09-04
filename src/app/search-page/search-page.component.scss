@@ -2,10 +2,9 @@
     position: relative; /* Establishes a containing block for absolute positioning */
     min-height: 100vh; /* Ensures container spans at least the height of the viewport */
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 }
 .sidebar{
-    position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
@@ -21,4 +20,12 @@ input[type="range"] {
   }
 .datePublished{
     display: flex;
+}
+input[type="number"]{
+    width: 100px;
+}
+.book-column{
+    flex: 1; /* Allows the book-column to take up the remaining space */
+    padding: 15px;
+    box-sizing: border-box;
 }
