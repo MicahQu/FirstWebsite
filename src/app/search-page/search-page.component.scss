@@ -29,3 +29,78 @@ input[type="number"]{
     padding: 15px;
     box-sizing: border-box;
 }
+.book{
+    background-color: lightgrey;
+    height: 200px;
+    display: flex;
+    
+}
+.bookImgColumn{
+    //background-color: green; //for debugging
+    height: 100%;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.bookimg{
+    width: 100px;
+    height: auto;
+    
+}
+.book-options{
+    //background-color: green;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .placeHoldButton{
+    background-color: #018e5b;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 126.03px;
+  }
+  .BookSum{
+    //background-color: blue;
+    text-align: center;
+    flex: 2;
+  }
+  .book-info{
+    //background-color: yellow;
+    position: relative;
+    padding: 15px;
+  }
+  h3{
+    font-size: 20px;
+  }
