@@ -6,6 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./search-page.component.scss']
 })
 export class SearchPageComponent {
+  books: any[] = [];
 
+  ngOnInit(): void {
+    const numberOfBooks = 5; // Adjust the number of books here
+    this.books = Array(numberOfBooks).fill({});
+  }
 
 }
