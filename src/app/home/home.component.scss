@@ -2,6 +2,8 @@
     display: flex;
     align-items: center; /* Aligns the image and text vertically */
     gap: 20px; /* Adds space between the image and text */
+    font-family: calibri;
+    font-size: 20px;
 }
 .column{
     flex: 1;/*Each column takes equal width*/
@@ -20,6 +22,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: center;
 }
 
 .home2{
@@ -33,6 +36,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    text-align: justify;
 }
 .BuildingPic{
     width: 500px;
@@ -40,7 +44,7 @@
 }
 .event1pic{
     width: 400px;
-    height: auto;
+    height: 275px;
 }
 .event2pic{
     width: 200px;
@@ -54,4 +58,11 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+h1{
+    font-family: Impact;
+    text-transform: uppercase;
+    font-size: 56px;
+    color: lightblue;
+    text-shadow: 2px 2px grey;
 }

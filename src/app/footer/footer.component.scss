@@ -2,7 +2,8 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #f1f1f1;
+    background-color: darkgrey;
+    font-family: calibri;
 }
 .footer-column{
     flex: 1;
@@ -15,6 +16,7 @@
     text-align: center;
     margin-top: 20px;
     padding: 10px 0;
+    font-family: calibri;
     //background-color: #e9ecef;
     //color: #000000;
 }
@@ -22,4 +24,11 @@
 .footer-column img{
     width: 175px;
     height: auto;
+    border: solid 15px;
+    border-color: darkred;
+}
+h3{
+    font-family: impact;
+    text-transform: uppercase;
+    font-size: 30px;
 }
