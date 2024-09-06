@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 Search(){
+  window.location.href = '/search-page'
   console.log("searched")
 }
 }
