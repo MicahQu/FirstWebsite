@@ -3,19 +3,53 @@
     justify-content: space-between;
     padding: 20px;
    // background-color: #f1f1f1;
+   font-size: 20px;
+   font-family: calibri;
 }
 .about-us-column{
     flex: 1;
     margin: 0 15px;
     text-align: center;
+    text-align: justify;
 }
 .about-us-column h3{
     margin-top: 0;
 }
-.about-us-column img{
+.about-us-image img{
     width: 400px;
     height: auto;
     align-items: center;
     justify-content: center;
     
+}
+.about-us-form{
+    flex: 1;
+    margin: 0 15px;
+    text-align: center;
+}
+h3{
+    text-transform: uppercase;
+    font-family: impact;
+    font-size: 30px;
+    color: lightblue;
+    text-shadow: 2px 2px grey;
+}
+.about-us-image{
+    flex: 1;
+    margin: 0 15px;
+    display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+}
+input[type="text"], input[type="email"]{
+    width: 100%;
+}
+textarea{
+    width: 100%;
+    height: 50vh; /* Or the height of the container */
+    box-sizing: border-box;
+}
+.contactus-header{
+    margin-top: 0%;
+    text-align: justify;
 }
